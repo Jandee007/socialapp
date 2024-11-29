@@ -90,13 +90,15 @@ form .btn:hover {
   border-radius: 20px; /* Rounded buttons */
 }
 
+/* Danger Button */
 .btn-danger {
-  background-color: #e74c3c;
+  background-color: #e74c3c; /* Red */
   border: none;
+  color: white;
 }
 
 .btn-danger:hover {
-  background-color: #c0392b;
+  background-color: #c0392b; /* Darker red */
 }
 
 .btn-warning {
@@ -110,8 +112,9 @@ form .btn:hover {
 }
 
 .btn-success {
-  background-color: #2ecc71;
+  background-color: #2ecc71; /* Green */
   border: none;
+  color: white;
 }
 
 .btn-success:hover {
@@ -183,8 +186,9 @@ form .btn {
 
 /* Buttons */
 .btn-primary {
-  background-color: #3498db;
+  background-color: #3498db; /* Blue */
   border: none;
+  color: white;
 }
 
 .btn-primary:hover {
@@ -317,7 +321,7 @@ h1, h2, h3 {
 /* Button Styles */
 .navbar-nav .nav-item .nav-link {
   padding: 1px 20px;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   font-size: 1rem;
 }
 
@@ -383,18 +387,106 @@ footer {
 }
 
 .btn-secondary {
-  background-color: #2ecc71;
+  background-color: #85c1e9; /* Powder blue */
   border: none;
-  color: white;
+  color: #2c3e50;
 }
 
 .btn-secondary:hover {
-  background-color: #27ae60;
+  background-color:/* General Centering Styles */
+body {
+  background-color: #f8f9fa; /* Light background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center-align text */
+}
+
+.container {
+  max-width: 800px; /* Adjust the container width */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+}
+
+/* Card Styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center-align text inside cards */
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px 0;
+  max-width: 100%; /* Adjust for responsiveness */
+}
+
+/* Form Centering */
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Form Inputs */
+form .form-control {
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 500px; /* Restrict input width */
+  border-radius: 0px; /* Square-shaped inputs */
+}
+
+/* Button Centering */
+.btn {
+  border-radius: 15px; 
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Flash Messages */
+.flash-notice,
+.flash-alert {
+  width: 100%;
+  max-width: 500px;
+  text-align: center; /* Center-align text */
+}
+
+/* Comments Section */
+.list-group-item {
+  margin: 10px auto;
+  text-align: center; /* Center-align text */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #343a40;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+}
+ #27ae60;
 }
 
 /* Login/Sign Up Forms */
 .form-control {
-  border-radius: 10px;
+  /* border-radius: 10px; */
   margin-bottom: 15px;
 }
 
